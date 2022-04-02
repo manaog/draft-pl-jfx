@@ -1,0 +1,23 @@
+
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import java.lang.*?>
+<?import java.util.*?>
+<?import javafx.scene.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.text.TextFlow?>
+
+<AnchorPane xmlns="http://javafx.com/javafx"
+            xmlns:fx="http://javafx.com/fxml"
+            fx:controller="de.proleague.draft.controller.OverviewController"
+            prefHeight="400.0" prefWidth="600.0">
+<children>
+    <ScrollPane layoutX="200.0" layoutY="40.0">
+        <content>
+            <TextFlow fx:id="textflow" prefHeight="200.0" prefWidth="200.0" />
+        </content>
+    </ScrollPane>
+    <Button fx:id="button" layoutX="274.0" layoutY="305.0" mnemonicParsing="false" onAction="#onButtonClick" text="Button" />
+</children>
+</AnchorPane>
